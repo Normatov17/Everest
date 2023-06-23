@@ -15,6 +15,7 @@ module.exports = {
           textRang: "#0E192E",
           form: "#D8E1EA",
           buttonRang: "#2A79CC",
+          gridCard: "#E8EFF5",
         },
       },
       fontFamily: {
