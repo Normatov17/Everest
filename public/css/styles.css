@@ -476,6 +476,69 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.inset-0 {
+  inset: 0px;
+}
+.top-5 {
+  top: 1.25rem;
+}
+.top-11 {
+  top: 2.75rem;
+}
+.right-64 {
+  right: 16rem;
+}
+.left-8 {
+  left: 2rem;
+}
+.left-11 {
+  left: 2.75rem;
+}
+.top-16 {
+  top: 4rem;
+}
+.left-16 {
+  left: 4rem;
+}
+.bottom-10 {
+  bottom: 2.5rem;
+}
+.right-8 {
+  right: 2rem;
+}
+.left-4 {
+  left: 1rem;
+}
+.right-20 {
+  right: 5rem;
+}
+.bottom-32 {
+  bottom: 8rem;
+}
+.right-32 {
+  right: 8rem;
+}
+.bottom-28 {
+  bottom: 7rem;
+}
+.right-28 {
+  right: 7rem;
+}
+.bottom-24 {
+  bottom: 6rem;
+}
+.bottom-20 {
+  bottom: 5rem;
+}
+.z-20 {
+  z-index: 20;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -489,20 +552,35 @@ video {
 .inline-flex {
   display: inline-flex;
 }
+.h-\[550px\] {
+  height: 550px;
+}
 .w-575 {
   width: 575px;
 }
 .w-full {
   width: 100%;
 }
+.max-w-\[558px\] {
+  max-width: 558px;
+}
 .max-w-base {
   max-width: 1360px;
+}
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 .flex-col {
   flex-direction: column;
 }
 .items-center {
   align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
 }
 .justify-between {
   justify-content: space-between;
@@ -525,8 +603,20 @@ video {
 .gap-7 {
   gap: 1.75rem;
 }
+.gap-11 {
+  gap: 2.75rem;
+}
+.gap-5 {
+  gap: 1.25rem;
+}
+.gap-3 {
+  gap: 0.75rem;
+}
 .overflow-hidden {
   overflow: hidden;
+}
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 .rounded-lg {
   border-radius: 0.5rem;
@@ -556,6 +646,24 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-cover {
+  background-size: cover;
+}
+.bg-center {
+  background-position: center;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.p-7 {
+  padding: 1.75rem;
+}
+.p-5 {
+  padding: 1.25rem;
+}
+.p-4 {
+  padding: 1rem;
+}
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -580,8 +688,23 @@ video {
   padding-top: 11px;
   padding-bottom: 11px;
 }
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
 .pb-1 {
   padding-bottom: 0.25rem;
+}
+.pb-24 {
+  padding-bottom: 6rem;
 }
 .pl-4 {
   padding-left: 1rem;
@@ -589,18 +712,44 @@ video {
 .pr-2 {
   padding-right: 0.5rem;
 }
+.pr-6 {
+  padding-right: 1.5rem;
+}
+.pt-10 {
+  padding-top: 2.5rem;
+}
+.pt-6 {
+  padding-top: 1.5rem;
+}
+.pt-8 {
+  padding-top: 2rem;
+}
 .font-poppins {
   font-family: Poppins, sans-serif;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 .font-extrabold {
   font-weight: 800;
 }
 .font-normal {
   font-weight: 400;
+}
+.leading-\[52px\] {
+  line-height: 52px;
+}
+.leading-6 {
+  line-height: 1.5rem;
 }
 .text-brands-textRang {
   --tw-text-opacity: 1;
@@ -613,4 +762,18 @@ video {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-500 {
+  transition-duration: 500ms;
+}
+.group:hover .group-hover\:translate-x-2 {
+  --tw-translate-x: 0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
