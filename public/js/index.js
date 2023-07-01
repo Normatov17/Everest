@@ -10,4 +10,5 @@ const swiper = new Swiper(".mySwiper", {
 });
 
 if (swiper === 0) {
+  nextEl;
 }
